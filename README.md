@@ -17,56 +17,21 @@ Status](https://github.com/VorobyevAM/devops-engineer-from-scratch-project-49/ac
 
 ## Installation
 
-Клонируйте репозиторий:
-
 ``` bash
 git clone https://github.com/VorobyevAM/devops-engineer-from-scratch-project-49.git
 cd devops-engineer-from-scratch-project-49
-```
-
-Установите зависимости:
-
-``` bash
 make install
-```
-
-Соберите пакет:
-
-``` bash
 make build
-```
-
-Установите пакет:
-
-``` bash
 make package-install
 ```
 
-После установки игры можно запускать напрямую из терминала.
-
 ## Brain Games
-
-Команда приветствия пользователя:
 
 ``` bash
 brain-games
 ```
 
-Пример:
-
-``` text
-Welcome to the Brain Games!
-May I have your name? Sam
-Hello, Sam!
-```
-
 ## Игра «Проверка на чётность»
-
-Необходимо определить, является ли случайное число чётным.
-
-Ответьте `yes`, если число чётное, или `no`, если нечётное.
-
-Запуск:
 
 ``` bash
 brain-even
@@ -74,15 +39,9 @@ brain-even
 
 ### Демонстрация
 
-Добавьте сюда asciinema с демонстрацией установки, победы и поражения в
-`brain-even`.
+[![asciicast](https://asciinema.org/a/jgJUvTpJozCK8heY.svg)](https://asciinema.org/a/jgJUvTpJozCK8heY)
 
 ## Игра «Калькулятор»
-
-Необходимо вычислить результат случайного арифметического выражения.
-Поддерживаются операции `+`, `-` и `*`.
-
-Запуск:
 
 ``` bash
 brain-calc
@@ -90,13 +49,9 @@ brain-calc
 
 ### Демонстрация
 
-Добавьте сюда asciinema с демонстрацией `brain-calc`.
+[![asciicast](https://asciinema.org/a/GjiJYWdCRR0DVcfU.svg)](https://asciinema.org/a/GjiJYWdCRR0DVcfU)
 
 ## Игра «НОД»
-
-Необходимо найти наибольший общий делитель двух чисел.
-
-Запуск:
 
 ``` bash
 brain-gcd
@@ -104,13 +59,9 @@ brain-gcd
 
 ### Демонстрация
 
-Добавьте сюда asciinema с демонстрацией `brain-gcd`.
+[![asciicast](https://asciinema.org/a/pRB06RSAbXlQKQKd.svg)](https://asciinema.org/a/pRB06RSAbXlQKQKd)
 
 ## Игра «Арифметическая прогрессия»
-
-Необходимо определить пропущенное число в арифметической прогрессии.
-
-Запуск:
 
 ``` bash
 brain-progression
@@ -118,15 +69,9 @@ brain-progression
 
 ### Демонстрация
 
-Добавьте сюда asciinema с демонстрацией `brain-progression`.
+[![asciicast](https://asciinema.org/a/QaCcPCzYlABXca15.svg)](https://asciinema.org/a/QaCcPCzYlABXca15)
 
 ## Игра «Простое ли число?»
-
-Необходимо определить, является ли случайное число простым.
-
-Ответьте `yes`, если число простое, или `no` в противном случае.
-
-Запуск:
 
 ``` bash
 brain-prime
@@ -134,42 +79,14 @@ brain-prime
 
 ### Демонстрация
 
-Добавьте сюда asciinema с демонстрацией `brain-prime`.
+[![asciicast](https://asciinema.org/a/EXOyXN0URe5kC6uY.svg)](https://asciinema.org/a/EXOyXN0URe5kC6uY)
 
 ## Development
 
-Проверка кода линтером:
-
 ``` bash
 make lint
-```
-
-Сборка проекта:
-
-``` bash
 make build
 ```
 
-Запуск игр без установки пакета:
-
-``` bash
-uv run brain-even
-uv run brain-calc
-uv run brain-gcd
-uv run brain-progression
-uv run brain-prime
-```
-
-## Games
-
-  Игра                        Команда
-  --------------------------- ---------------------
-  Проверка на чётность        `brain-even`
-  Калькулятор                 `brain-calc`
-  Наибольший общий делитель   `brain-gcd`
-  Арифметическая прогрессия   `brain-progression`
-  Простое ли число?           `brain-prime`
-
 Для успешного прохождения каждой игры необходимо дать **три правильных
 ответа подряд**.
-
